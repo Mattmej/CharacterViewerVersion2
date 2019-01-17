@@ -103,10 +103,10 @@
 		C926472C21F0253E007A8625 /* CharacterViewerVersion2 */ = {
 			isa = PBXGroup;
 			children = (
+				C926475B21F02655007A8625 /* Model */,
 				C926476021F03322007A8625 /* ModelController */,
 				C926475D21F02677007A8625 /* ViewController */,
 				C926475C21F0265D007A8625 /* Views */,
-				C926475B21F02655007A8625 /* Model */,
 				C926472D21F0253E007A8625 /* AppDelegate.swift */,
 				C926473421F02540007A8625 /* Assets.xcassets */,
 				C926473621F02540007A8625 /* LaunchScreen.storyboard */,
