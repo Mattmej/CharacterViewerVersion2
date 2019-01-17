@@ -27,6 +27,19 @@ class CharacterController {
             guard let data = data,
                 let responseDataString = String(data: data, encoding: .utf8)
                 else { completion(nil); return }
+            
+            guard let jsonDictionary = (try? JSONSerialization.jsonObject(with: data, options: .allowFragments)) as? [String: Any]
+                else { completion(nil); return }
+            
+            print(jsonDictionary)
+            
+            var i = 0
+            
+            for i in index {
+                guard var character = Character(dictionary: jsonDictionary, index: i)
+
+            }
+            
         }
     }
 }
